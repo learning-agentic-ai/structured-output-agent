@@ -1,0 +1,17 @@
+# =====================================================================
+# The Data Customs Officer: Core Dependencies
+# Compatible with Python 3.10+
+# =====================================================================
+
+# Schema Contract & Runtime Validation (Gate 2 & Gate 4)
+pydantic>=2.7.0,<3.0.0
+
+# Inference Provider SDKs (Gate 3)
+groq>=0.9.0                  # Groq Cloud API SDK
+openai>=1.30.0               # Standard client for OpenRouter gateway
+
+# Interactive Terminal & UI Rendering
+ipython>=8.20.0              # For HTML/clear_output dashboard rendering
+
+# Environment & Config Management
+python-dotenv>=1.0.1         # Local .env loading for API credentials
