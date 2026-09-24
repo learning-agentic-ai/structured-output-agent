@@ -157,7 +157,7 @@ except Exception as err:
 
 The matrix below illustrates the behavioral divide between prompt-only extraction and schema-gated agent extraction across multiple runs.
 
-> **Empirical Benchmark Note:** Values reflect observed runs using Llama-3.3-70B. Because unconstrained LLMs are non-deterministic, exact strings and mutations will vary per run, while the systemic failure modes persist.
+> **Empirical Benchmark Note:** Values reflect observed runs using openai/gpt-oss-120b. Because unconstrained LLMs are non-deterministic, exact strings and mutations will vary per run, while the systemic failure modes persist.
 
 | Feature / Metric | Unstructured Run 1 | Unstructured Run 2 | Unstructured Run 3 | Structured Output (Cleared) | Production Failure Mode |
 | --- | --- | --- | --- | --- | --- |
